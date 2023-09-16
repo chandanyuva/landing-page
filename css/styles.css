@@ -1,0 +1,26 @@
+*{
+    border: 1px solid rgb(239, 138, 138);
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2px;
+}
+
+.header, .hero, .section, .footer{
+    max-height: 400px;
+}
+
+.hero{
+    background-color: #1F2937;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+
+}
